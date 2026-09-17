@@ -7,7 +7,17 @@ function Home() {
       <nav className="navbar">
 
         <div className="logo">
-          ⚡ HI-TECH POWER SAVER
+          <img
+            src="/logo.png.jpeg"
+            alt="Hi-Tech Power Saver"
+            style={{
+              height: "75px",
+              width: "auto",
+              maxWidth: "220px",
+              objectFit: "contain",
+              display: "block"
+            }}
+          />
         </div>
 
         <div className="nav-links">
